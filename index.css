@@ -24,7 +24,7 @@
     position: relative;
     z-index: 1; /* Ensure the content is in front of the background */
     color: white;
-    background-color: bisque;
+    background-color: #faedcd;
     border-radius: 2em;
     text-align: center;
     margin-top: 10%;
@@ -39,7 +39,7 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    color: brown;
+    color: #b5838d;
 }
   
   p {
@@ -47,5 +47,5 @@
     font-family: "VT323", monospace;
     font-weight: 400;
     font-style: normal;
-    color: brown;
+    color: #a4ac86;
     }
