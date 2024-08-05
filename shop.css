@@ -21,7 +21,27 @@ html, body {
     z-index: -1; /* Ensure the background is behind the content */
 }
   
-.content {
+.item-1 > a > img, p {
+    background-color: hsl(61, 53%, 69%);
+    padding: 1em;
+    border-radius: 2em;
+    text-align: left;
+    padding-left: 1em;
+    font-size: 1.5em;
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: #8e9670;
+}
+
+.item-1 > section {
+    display: flex;
+    background-color: hsl(61, 53%, 69%);
+    padding: 1em;
+    border-radius: 2em;
+}
+
+.contentRow {
     position: relative;
     z-index: 1; /* Ensure the content is in front of the background */
     color: white;
@@ -32,25 +52,14 @@ html, body {
     margin-left: 10%;
     margin-right: 10%;
     padding: 1em;
+    max-width: 100%;
 }
 
-.item1 {
-    position: relative;
-    z-index: 1;
-    width: 100%;
-    height: auto;
-}
 
-.item1 > a > img {
-    display: flex;
-    align-items: left;
-    width: 60% ;
-    height: auto;
-
-}
 
 img {
-    display: block;
+    display: flex;
+    
     margin : 2em auto;
     max-width: 10%;
     height: auto;
@@ -83,7 +92,7 @@ img {
     background-color: #a4ac86;
 }
 
-@media (max-widht:800px) {
+@media screen and (max-widht:800px) {
     .navbar {
         flex:100%
     }
@@ -104,16 +113,6 @@ h2,h3{
     font-weight: 400;
     font-style: normal;
     color: #b5838d;
-}
-
-p {
-    text-align: left;
-    padding-left: 1em;
-    font-size: 1.5em;
-    font-family: "VT323", monospace;
-    font-weight: 400;
-    font-style: normal;
-    color: #8e9670;
 }
 
 
