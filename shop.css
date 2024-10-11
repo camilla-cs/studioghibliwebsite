@@ -21,7 +21,7 @@ html, body {
     z-index: -1; /* Ensure the background is behind the content */
 }
   
-.item-1 > a > img, p {
+.item-1, .item-2, .item-3 > div {
     background-color: hsl(61, 53%, 69%);
     padding: 1em;
     border-radius: 2em;
@@ -31,10 +31,10 @@ html, body {
     font-family: "VT323", monospace;
     font-weight: 400;
     font-style: normal;
-    color: #8e9670;
+    color: #586528;
 }
 
-.item-1 > section {
+.item-1, .item-2, .item-3 > section {
     display: flex;
     background-color: hsl(61, 53%, 69%);
     padding: 1em;
@@ -44,7 +44,7 @@ html, body {
 .contentRow {
     position: relative;
     z-index: 1; /* Ensure the content is in front of the background */
-    color: white;
+    color: #8e9670;
     background-color: #faedcd;
     border-radius: 2em;
     text-align: center;
@@ -59,11 +59,11 @@ html, body {
 
 img {
     display: flex;
-    
     margin : 2em auto;
     max-width: 10%;
     height: auto;
 }
+
 
 .navbar {
     display: flex; 
@@ -89,6 +89,27 @@ img {
 }
 
 .navbar > a:hover {
+    background-color: #a4ac86;
+}
+
+
+.button > a {
+    text-decoration: none;
+    text-align: center;
+    background-color: #b5838d;
+    color: white;
+    padding: 1em;
+    border-radius: 2.5em;
+    font-size:medium;
+    font-family: "Playwrite AR", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    
+    
+}
+
+.button > a:hover {
     background-color: #a4ac86;
 }
 
