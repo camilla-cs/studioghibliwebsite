@@ -121,6 +121,7 @@ h2,h3{
 
 h4 {
     text-align: left;
+    text-decoration: underline;
     padding-left: 1em;
     font-size: 1.7em;
     font-family: "Playwrite AR", cursive;
