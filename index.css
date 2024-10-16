@@ -90,6 +90,14 @@
     }
   }
 
+  @media (min-width: 300px; max-width:1000px) {
+    .navbar {
+      flex:auto;
+      align-content: flex-start;
+    }
+    
+  }
+
   
   footer {
     display: flex;
