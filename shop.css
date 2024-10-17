@@ -70,7 +70,7 @@ img {
     flex-flow: row wrap;
     justify-content: space-around;
     align-content: center;
-    padding:1em 20em; 
+    padding:1em 10em; 
 }
 
 .navbar > a {

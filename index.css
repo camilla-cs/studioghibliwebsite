@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     height: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
   }
   
   .background {
@@ -61,8 +61,8 @@
     display: flex; 
     flex-flow: row wrap;
     justify-content: space-around;
-    align-content: center;
-    padding:1em 20em; 
+    align-content:center;
+    padding:1em 10em; 
   }
 
   .navbar > a {
@@ -84,20 +84,21 @@
     background-color: #a4ac86;
   }
 
-  @media (max-widht:800px) {
+  @media screen and (max-width:500px) {
     .navbar {
-      flex:100%
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;   
+      
+    }
+
+    .navbar > a {
+      margin: 0;
+      
+      
     }
   }
-
-  @media (min-width: 300px; max-width:1000px) {
-    .navbar {
-      flex:auto;
-      align-content: flex-start;
-    }
-    
-  }
-
   
   footer {
     display: flex;

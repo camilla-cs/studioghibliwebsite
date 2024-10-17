@@ -46,7 +46,7 @@ img {
     flex-flow: row wrap;
     justify-content: space-around;
     align-content: center;
-    padding:1em 20em; 
+    padding:1em 10em; 
 }
 
 .navbar > a {
@@ -126,6 +126,29 @@ iframe {
     align-items: left;
     padding-left: 4em;
 }
+
+@media screen and (max-width:800px) {
+    .navbar {
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;   
+      
+    }
+
+    .navbar > a {
+      margin: 0;
+      
+      
+    }
+
+    .content > iframe {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+  }
 
 footer {
     display: flex;
