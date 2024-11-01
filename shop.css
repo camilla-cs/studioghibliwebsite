@@ -22,7 +22,7 @@ html, body {
 }
   
 .item-1, .item-2, .item-3 > div {
-    background-color: hsl(61, 53%, 69%);
+    background-color: #faedcd;
     padding: 1em;
     border-radius: 2em;
     text-align: left;
@@ -33,13 +33,13 @@ html, body {
     font-style: normal;
     color: #586528;
 }
-
+/* 
 .item-1, .item-2, .item-3 > section {
     display: flex;
-    background-color: hsl(61, 53%, 69%);
+    background-color: #70adac;
     padding: 1em;
     border-radius: 2em;
-}
+} */
 
 .contentRow {
     position: relative;
@@ -60,7 +60,7 @@ html, body {
 img {
     display: flex;
     margin : 2em auto;
-    max-width: 10%;
+    max-width: fit-content;
     height: auto;
 }
 
@@ -92,8 +92,13 @@ img {
     background-color: #a4ac86;
 }
 
+.button {
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
 
 .button > a {
+
     text-decoration: none;
     text-align: center;
     background-color: #b5838d;

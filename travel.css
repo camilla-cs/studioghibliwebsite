@@ -126,6 +126,10 @@ p > a {
     background-color: #a4ac86;
 }
 
+.button {
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
 
 .button > a {
     text-decoration: none;

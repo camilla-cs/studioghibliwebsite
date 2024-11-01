@@ -77,7 +77,14 @@ img {
 
 }
 
- div > a {
+
+
+div {
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+div > a {
     text-decoration: none;
     text-align: center;
     background-color: #b5838d;
