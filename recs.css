@@ -1,16 +1,11 @@
-body{
+body, html {
     margin: 0;
+    padding: 0;
     height: 100%;
-    overflow: hidden;
-    line-height: 1.6;
-}
-
-html, body {
-    height: 100%;
-    overflow-y: auto;
+    overflow-x: hidden;
 }
   
-.background {
+  .background {
     position: fixed;
     top: 0;
     left: 0;
@@ -19,9 +14,9 @@ html, body {
     background: url('assets/homepage.gif') no-repeat center center fixed;
     background-size: cover;
     z-index: -1; /* Ensure the background is behind the content */
-}
+  }
   
-.content {
+  .content {
     position: relative;
     z-index: 1; /* Ensure the content is in front of the background */
     color: white;
@@ -32,7 +27,9 @@ html, body {
     margin-left: 10%;
     margin-right: 10%;
     padding: 1em;
-}
+  }
+
+  
   
 img {
     display: block;
@@ -61,6 +58,7 @@ img {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    
 
 }
 
@@ -103,7 +101,7 @@ div > a:hover {
     background-color: #a4ac86;
 }
 
-@media (max-widht:800px) {
+@media (max-width:800px) {
     .navbar {
         flex:100%
     }
