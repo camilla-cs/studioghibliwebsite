@@ -1,0 +1,195 @@
+body{
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    line-height: 1.6;
+}
+
+html, body {
+    height: 100%;
+    overflow-y: auto;
+}
+  
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('assets/homepage.gif') no-repeat center center fixed;
+    background-size: cover;
+    z-index: -1; /* Ensure the background is behind the content */
+}
+  
+.content {
+    position: relative;
+    z-index: 1; /* Ensure the content is in front of the background */
+    color: white;
+    background-color: #faedcd;
+    border-radius: 2em;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 1em;
+}
+
+
+.text-container {
+    overflow: auto; /* Ensure the container clears the float */
+}
+
+.float-right {
+    float: right;
+    margin-left: 15px; /* Optional: Add some margin to the left of the image */
+    max-width: 30%; /* Set a maximum width for the image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+img {
+    display: block;
+    margin : 2em auto;
+    max-width: 10%;
+    height: auto;
+}
+
+p > a {
+    background-color: #b5838d;
+    color: white;
+    padding: 0.5em;
+    border-radius: 2.5em;
+    font-size:medium;
+    font-family: "Playwrite AR", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.navbar {
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
+    padding:1em 10em; 
+}
+
+.navbar > a {
+    text-decoration: none;
+    text-align: center;
+    background-color: #b5838d;
+    color: white;
+    padding: 1em;
+    border-radius: 2.5em;
+    font-size:medium;
+    font-family: "Playwrite AR", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.navbar > a:hover {
+    background-color: #a4ac86;
+}
+
+.button {
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.button > a {
+    text-decoration: none;
+    text-align: center;
+    background-color: #b5838d;
+    color: white;
+    padding: 1em;
+    border-radius: 2.5em;
+    font-size:medium;
+    font-family: "Playwrite AR", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+.button > a:hover {
+    background-color: #a4ac86;
+}
+
+ div > a {
+    text-decoration: none;
+    text-align: center;
+    background-color: #b5838d;
+    color: white;
+    padding: 1em;
+    border-radius: 2.5em;
+    font-size:medium;
+    font-family: "Playwrite AR", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+div > a:hover {
+    background-color: #a4ac86;
+}
+
+@media (max-widht:800px) {
+    .navbar {
+        flex:100%
+    }
+}
+
+a {
+    
+    color: #8e9670;
+    
+}
+
+h2,h3{
+    text-align: left;
+    padding-left: 1em;
+    font-size: 2em;
+    font-family: "Playwrite AR", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #b5838d;
+}
+
+h4 {
+    text-align: left;
+    text-decoration: underline;
+    padding-left: 1em;
+    font-size: 1.7em;
+    font-family: "Playwrite AR", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #b5838d;
+}
+
+p {
+    text-align: left;
+    padding-left: 1em;
+    font-size: 1.5em;
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: #8e9670;
+}
+
+ 
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+    padding: 10px 0;
+    
+  }
