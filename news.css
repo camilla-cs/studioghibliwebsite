@@ -134,6 +134,24 @@ div > a:hover {
     background-color: #a4ac86;
 }
 
+.card-article {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 90%;
+    border-radius: 5px;
+    background-color: #dea394;
+}
+
+.card-article:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card-article > img {
+    width: 60em;
+    border-radius: 5px 5px 0 0;
+}
+
+
+
 @media (max-widht:800px) {
     .navbar {
         flex:100%
